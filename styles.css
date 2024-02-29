@@ -9,10 +9,52 @@
 
 img {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 body {
     font-family: "Outfit", sans-serif ;
     font-size: 15px;
     background-color: var(--light-gray);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: var(--white);
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.qr-code-img {
+    padding: 7px;
+    border-radius: 20px;
+    width: 180px;
+}
+
+.img-info1 {
+    margin-left: 7px;
+    margin-top: 2px;
+    font-weight: 500;
+    width: 180px;
+    text-align: center;
+}
+
+.img-info2 {
+    font-weight: 10px;
+    color: var(--grayish-blue);
+    font-size: 12px;
+    width: 190px;
+    text-align: center;
 }
